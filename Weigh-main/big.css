@@ -1,8 +1,0 @@
-/* big.css */
-.content-wrapper { max-width: 1600px; padding: 100px 80px 0; }
-.hero-content h1 { font-size: 6rem; letter-spacing: 5px; }
-.subtitle { font-size: 1.8rem; }
-.character-card { padding: 40px; gap: 40px; }
-.char-avatar { width: 200px; height: 200px; }
-.char-info h3 { font-size: 2.2rem; }
-.tree { transform: scale(1.2); }

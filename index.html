@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <!-- ... мета-теги и шрифты ... -->
+  
+  <!-- 1. БАЗОВЫЙ ДИЗАЙН (Загружается всегда, ничего не потеряется) -->
+  <link rel="stylesheet" href="style.css" />
+  
+</head>
+<body class="home-page">
+
+  <!-- ===== ДИНАМИЧЕСКИЙ ФОН (HTML остался прежним) ===== -->
+  <div class="bg-stack" aria-hidden="true">
+    <div class="bg-layer bg-light" id="bg-light">
+      <div class="sky"></div>
+      <div class="parallax-layer" id="parallax-clouds">
+        <div class="cloud c1"></div>
+        <div class="cloud c2"></div>
+        <div class="cloud c3"></div>
+      </div>
+      <div class="parallax-layer" id="parallax-trees">
+        <div class="trees">
+          <div class="tree t1"></div>
+          <div class="tree t2"></div>
+          <div class="tree t3"></div>
+          <div class="tree t4"></div>
+        </div>
+      </div>
+      <div class="ground"></div>
+    </div>
+
+    <!-- Слой 2: Картинка (тёмный фон) -->
+<div class="bg-layer bg-dark" id="bg-dark"></div>
+
+      <div class="glow g1"></div>
+      <div class="glow g2"></div>
+      <div class="glow g3"></div>
+      <div class="stars"></div>
+      
+      <div class="luka-figure"></div>
+    </div>
+  </div>
+
+  <!-- ================= КОНТЕНТ ================= -->
+  <main class="content-wrapper">
+    <!-- ... Весь контент из твоего HTML без изменений ... -->
+    
+    <header class="hero">
+      <div class="hero-content">
+        <h1>Wiege</h1>
+        <p class="subtitle">vivinos · LukaHyuna</p>
+      </div>
+    </header>
+       <section class="video-section panel">
+  <h2>Смотреть клип</h2>
+  <div class="video-wrapper">
+    <video controls preload="metadata">
+      <source src="wiege.mp4" type="video/mp4">
+    </video>
+  </div>
+</section>
+      </div>
+    </section>
+
+    <section class="characters-section panel">
+      <h2>Персонажи</h2>
+      <div class="characters-list">
+        <!-- Карточки персонажей (структура та же) -->
+        <article class="character-card">
+         <div class="char-avatar">
+    <img src="image/Hyuna.jpg" alt="Хёна">
+  </div>
+          <div class="char-info">
+            <h3>Хёна</h3>
+            <p class="char-short">Молодая девушка со взрывным характером, одна из лидеров повстанцев и борцов за права людей в мире пришельцев. Она сильна, вынослива и обладает уникальным чувством справедливости.</p>
+            <button class="toggle-btn" data-target="char-1">Подробнее</button>
+            <div class="char-details" id="char-1">
+              <p>Хёна выросла в «Саду Анакт» (Anakt Garden) вместе со своим младшим братом Хён ву и их общим другом Лукой. Эта троица была неразлучна, но их идиллия закончилась трагедией. Между Хён ву и Лукой произошел конфликт, причиной которого стало внимание Хёны. Конфликт привел к смерти Хён ву от черепно-мозговой травмы.
+Эта смерть стала первородной травмой Хёны. Её неспособность защитить младшего брата сформировала глубокое, хроническое чувство вины, которое стало двигателем всех её последующих действий. Вся её дальнейшая борьба — это попытка искупить вину за ту единственную ошибку прошлого.</p>
+<p>Психологический портрет: Маска и Реальность
+Хёна — персонаж с выраженным дуализмом:
+Внешняя маска (Броня): Она демонстрирует жизнерадостность, уверенность в себе и дерзкую игривость. Даже в смертельно опасных ситуациях, направляя пистолет на враждебных роботов, она сохраняет улыбку. Эта бравада — защитный механизм, позволяющий ей функционировать как лидеру сопротивления и не сломаться под давлением ужаса системы Alien Stage.</p>
+            </div>
+          </div>
+        </article>
+        
+        <article class="character-card">
+         <div class="char-avatar">
+    <img src="image/Luka.jpg" alt="Хёна">
+  </div>
+          <div class="char-info">
+            <h3>Лука</h3>
+            <p class="char-short">Парень, достигший невероятных высот в музыкальной индустрии пришельцев, но давно лишившийся сострадания и эмпатии к обычным людям.</p>
+            <button class="toggle-btn" data-target="char-2">Подробнее</button>
+            <div class="char-details" id="char-2">
+              <p>— Разве имеем мы право его судить?.. А самое главное, имел ли Лука право на ошибку, на лишние чувства, на единственную слабость?.. Конечно, нет. Он был воспитан как безупречная игрушка для инопланетян и знал, что за каждую ошибку понесёт жестокое наказание. Показать своё сострадание к противнику на сцене — проиграть. Так устроено шоу.</p> 
+
+<p>Луке ещё в глубоком детстве пришлось заблокировать это чувство и зарыть глубоко в душе. Он не имел сострадания ни к другим, ни к себе, ведь испытать его значило бы совершить ту самую, неисправимую ошибку.</p>
+<p>Как ни крути, Лука никогда полностью не осознавал себя как личность. Ему была навязана роль подопытного кролика, идеальной игрушки для инопланетян. Хёна же была полной его противоположностью, смелой и дерзкой бунтаркой. Для Луки она являлась своего рода кумиром, той, что могла воплотить все его несбыточные мечты. Для человека, выращенного в строгих ограничениях, очень важно было найти личность, что олицетворяла такую дефицитную для него свободу. Но, к сожалению, Луку, как и всех в алнст, любить не учили. Его искренняя любовь и восхищение переросли в зависимость и желание обладать. Из-за внутренней неуверенности в себе Лука очень боялся потерять Хёну и пытался всячески удержать ее рядом с собой, быть для нее чуть ли не единственным близким человеком.</p>            
+</div>
+          </div>
+        </article>
+      </div>
+    </section>
+    
+    <section class="meaning-section panel">
+       <h2>Смысл</h2>
+       <div class="meaning-block">
+         <p>В контексте Alien Stage «Wiege» раскрывает внутренний конфликт и принятие боли. Колыбель здесь - не только про детство, а про исток чувств: место, где зарождается и любовь, и боль, и где всё ещё можно бережно удержать, несмотря на хрупкость.</p>
+       </div>
+    </section>
+
+    <section class="discussion-section panel">
+       <h2>Обсуждение</h2>
+       <form id="discussion-form" class="discussion-form">
+         <input type="text" id="author" placeholder="Имя" required />
+         <textarea id="message" placeholder="Сообщение" rows="3" required></textarea>
+         <button type="submit">Отправить</button>
+       </form>
+       <div id="discussion-list"></div>
+    </section>
+
+    <footer class="site-footer">
+      <p>Фан-разбор клипа</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
